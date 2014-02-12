@@ -10,21 +10,28 @@ a {
 .center {
   text-align: center;
 }
+.stack {
+  background-size: cover;
+  background-position: center center;
+}
 
 #welcome {
-  background: url(../img/universe.png);
-  background-size: auto auto;
+  background-image: url(../img/leonid_meteor_with_big_dipper.jpg);
 }
 #welcome > div {
   padding: 40px 80px;
-  background: rgba(0,0,0,0.8);
+  background: rgba(0,0,0,0.7);
 }
 #welcome h1 {
   color: #000;
-  background: rgba(255, 255, 255, 0.98);
+  background: rgba(255, 255, 255, 0.9);
   padding: 0 160px;
   margin: 0 -80px 1em;
 }
 #welcome img {
   float: right;
+}
+
+#no-idea {
+  background-image: url(../img/i-have-no-idea.jpg);
 }

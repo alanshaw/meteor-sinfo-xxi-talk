@@ -15,7 +15,6 @@ a:not(:hover) {
 
 .stack {
   background: #222;
-  background-size: cover;
   color: #fff;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
