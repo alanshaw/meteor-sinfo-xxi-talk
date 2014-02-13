@@ -11,8 +11,32 @@ a {
   text-align: center;
 }
 .stack {
+  background-image: url(../img/navy_blue_@2X.png);
   background-size: cover;
   background-position: center center;
+  transform: translate3d(0,0,0);
+}
+.headshot {
+  width: 160px;
+  height: 160px;
+  border: 6px solid #EFE;
+  border-radius: 50%;
+}
+.stack-screenshot {
+
+}
+.stack-screenshot h1 {
+  font-size: 48px;
+  font-weight: 300;
+  margin: 0.25em 0;
+}
+.stack-screenshot p {
+  font-size: 30px;
+  margin: 0.25em 0;
+}
+.stack-screenshot img {
+  display: block;
+  margin-left: -60px;
 }
 
 #welcome {
@@ -24,7 +48,7 @@ a {
 }
 #welcome h1 {
   color: #000;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.96);
   padding: 0 160px;
   margin: 0 -80px 1em;
 }
@@ -34,4 +58,30 @@ a {
 
 #no-idea {
   background-image: url(../img/i-have-no-idea.jpg);
+}
+
+#what-is {
+  background-image: url(../img/universe.png);
+  background-size: auto auto;
+}
+#what-is > div {
+  padding: 40px 80px;
+  background: rgba(0,0,0,0.7);
+}
+#what-is h1 {
+  color: #000;
+  background: rgba(255, 255, 255, 0.98);
+  padding: 0 160px;
+  margin: 0 -80px 1em;
+}
+#what-is ul {
+  font-size: 72%;
+}
+#what-is li {
+  margin-bottom: 1em;
+}
+
+#first-meetup {
+  background-image: url(../img/first-mmetup.jpeg);
+  background-position: center top;
 }

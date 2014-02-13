@@ -15,7 +15,7 @@
 - Focused on allowing you to build data driven realtime apps
 - Traditional vs Meteor apps
 
-[how we built our first apps]
+[first meetup]
 - Oli was worried about nobody coming
 - Oli built goto
 - I built blackboard
