@@ -16,7 +16,7 @@
 - Traditional vs Meteor apps
 
 [how we built our first apps]
-- Worried about nobody coming
+- Oli was worried about nobody coming
 - Oli built goto
 - I built blackboard
 
@@ -27,11 +27,13 @@
 [what's happening?]
 - We didn't write much code at all
 - We didn't design a server side API or use any XHR
-- Meteor put a database in your browser
-- And keeps it in sync with the server side MongoDB
+- The "magic" Meteor did was to put a database in your browser
+- ...and keep it in sync with the server side MongoDB
 - All we did was tell Meteor there was a collection of things
-- Things in the collection appeared in the client database
-- Adding things to the client database appeared in the server database, and in databases of other connected clients! OMG!
+- Things in the collection of things in the server appeared in the collection of things on the client
+- Adding things to the client database appeared in the server database, and in databases of other connected clients!
+
+[erhmahgerd]
 
 [Collection code]
 - Define a collection
@@ -44,13 +46,58 @@
 - Itchy fingers
 - Meteor have kept things simple enough that you can pick it up really easily
 
-[movements]
+[And then...]
+- We kept doing meetups and created a bunch more demos
 
-[asciify]
+[movements]
+- Similar to goto
+- Demonstrate to a client how one could use websockets to push updates to a client
+- Most of the code is for periodically adding a position to the collection
+- Client just moves the marker and redraws the polyline
+
+[browpie]
+- d3!
+- UA string harvester
 
 [how does it know?]
-- Pub/sub
+- All these demos are using the Meteor Deps package
+- Run a computation once, and re-run the computation when its dependencies change
+- Pub/Sub
 - Live data sets
 - Meteor poll & diff / oplog tailing
 - Reduces amount of data sent down the wire by sending data diffs only
 - The Protocol Meteor are using is called DDP - an open standard they created
+
+[asciify]
+- Experimentation with npm modules
+- Reactive templating
+
+[Template code]
+- Define a template
+- Uses handlebars syntax
+- Template re-renders when the data changes
+- Latency compensation
+
+[Routing]
+- Asciify uses a budget routing mechanism for chat room implementation
+- Still 7 lines is fun
+- For serious routing you'll want to use IRON ROUTER
+
+[Atmosphere]
+- The place where the Meteor packages live
+- Meteorite is the tool that you use to install packages in atmosphere
+- You'll come to realise many things made for meteor are tragically named after vaguely relevant "spacey" things
+
+[Spotify]
+- npm integration again
+- node-spotify-applescript
+- HTML5 <progress> element FTW
+
+[Foam]
+- d3
+- SVG
+- Data URI
+- Web RTC getUserMedia
+
+
+Access control??
