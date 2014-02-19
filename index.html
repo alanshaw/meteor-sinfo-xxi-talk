@@ -3,6 +3,7 @@
 <style>
 
   @import url(css/lib/stack.v0.css);
+  @import url(css/lib/rainbow/monokai.css);
   @import url(css/main.css);
 
   .big {
@@ -78,13 +79,32 @@
   <img src="img/blackboard.png"/>
 </section>
 
-<section>
-  <h1 class="caption">6</h1>
+<section id="blackbird"></section>
+
+<section id="whats-happening">
+  <div>
+    <h1>What's happening?</h1>
+    <ul>
+      <li>No code<sup>*</sup></li>
+      <li>No REST, no XHR</li>
+      <li>Meteor put a database in your browser</li>
+      <li>...and kept it in sync with the server</li>
+    </ul>
+    <small><sup>*</sup> Some code</small>
+  </div>
 </section>
 
+<section id="erhmahgerd"></section>
+
 <section>
-  <h1 class="caption">5</h1>
+  <h1>Add to a collection;<br/>all users see the change</h1>
+  <pre><code data-language="javascript">
+var Things = new Meteor.Collection("things")
+Things.insert({ name: "Marmot" })
+  </code></pre>
 </section>
+
+<section id="such-wow"></section>
 
 <section>
   <h1 class="caption">4</h1>
@@ -123,3 +143,6 @@
 
 <script src="js/lib/d3.v3.js"></script>
 <script src="js/lib/stack.v0.js"></script>
+<script src="js/lib/rainbow/rainbow.js"></script>
+<script src="js/lib/rainbow/language/generic.js"></script>
+<script src="js/lib/rainbow/language/javascript.js"></script>

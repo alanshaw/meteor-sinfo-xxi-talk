@@ -10,7 +10,7 @@
 - And then it became the second biggest in the world
 
 [what is?]
-- A client AND server side framework for building your web app
+- A full stack framework for building your web app
 - A stack of NodeJS, MongoDB, Handlebars and websockets
 - Focused on allowing you to build data driven realtime apps
 - Traditional vs Meteor apps
@@ -21,8 +21,14 @@
 - I built blackboard
 
 [goto]
+- Updates positions live as people move
+- Idea to app in 1 day! - Less than
 
 [blackboard]
+- Canvas based drawing
+- Idea to app in minutes
+
+[blackbird]
 
 [what's happening?]
 - We didn't write much code at all
@@ -38,7 +44,10 @@
 [Collection code]
 - Define a collection
 - Add stuff to it
+- in reality it is a tiny bit mor complicated: you have to subscribe to a publication
 - Find stuff from it
+- If you've ever used MongoDB before this'll look familiar
+- That's all that is happening in goto and blackboard
 
 [Such wow]
 - Seeing that happen for the first time is mind blowing
@@ -69,6 +78,7 @@
 - The Protocol Meteor are using is called DDP - an open standard they created
 
 [asciify]
+- Gravatar
 - Experimentation with npm modules
 - Reactive templating
 
