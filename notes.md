@@ -39,12 +39,10 @@
 - Things in the collection of things in the server appeared in the collection of things on the client
 - Adding things to the client database appeared in the server database, and in databases of other connected clients!
 
-[erhmahgerd]
-
 [Collection code]
 - Define a collection
 - Add stuff to it
-- in reality it is a tiny bit mor complicated: you have to subscribe to a publication
+- in reality it is a tiny bit more complicated: you have to subscribe to a publication
 - Find stuff from it
 - If you've ever used MongoDB before this'll look familiar
 - That's all that is happening in goto and blackboard
