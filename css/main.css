@@ -10,6 +10,9 @@ a {
 pre {
   font-size: 25px;
 }
+li {
+  padding-left: 5px;
+}
 .center {
   text-align: center;
 }
@@ -107,4 +110,26 @@ pre {
 
 #such-wow {
   background-image: url(../img/doge.png);
+}
+
+#browpie img {
+  float: right;
+  margin-top: -200px;
+  box-shadow: 0 0 1em #000;
+}
+
+#how-does-it-know {
+  background-image: url(../img/inigo.jpg);
+}
+#how-does-it-know > div {
+  padding: 40px 80px;
+  background: rgba(0,0,0,0.5);
+}
+
+#routing {
+  background-image: url(../img/ironman-router.jpg);
+}
+#routing > div {
+  padding: 40px 80px;
+  background: rgba(0,0,0,0.7);
 }

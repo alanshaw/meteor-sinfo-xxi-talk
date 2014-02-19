@@ -116,20 +116,54 @@ Things.insert({ name: "Marmot" })
   <img src="img/movements.png"/>
 </section>
 
-<section>
-  <h1 class="caption">3</h1>
+<section id="browpie" class="stack-screenshot">
+  <img src="img/browpie-mobile.png">
+  <h1><a href="http://browpie.meteor.com/">browpie.meteor.com</a></h1>
+  <p>UA string harvester.</p>
+</section>
+
+<section id="how-does-it-know">
+  <div>
+    <h1>How does it know?</h1>
+    <ul>
+      <li>Meteor Deps</li>
+      <li>Pub/Sub</li>
+      <li>Live data sets</li>
+      <li><strong>Data diffs</strong></li>
+    </ul>
+  </div>
+</section>
+
+<section class="stack-screenshot">
+  <h1><a href="http://asciify.meteor.com/">asciify.meteor.com</a></h1>
+  <p>Awesomized &amp; NSA proof instant messaging.</p>
+  <img src="img/asciify.png"/>
 </section>
 
 <section>
-  <h1 class="caption">2</h1>
+  <pre><code data-language="html">
+&lt;template name="theThings"&gt;
+  &lt;ul&gt;
+    {&#123;#each all&#125;}&lt;li&gt;{&#123;name&#125;}&lt;/li&gt;{&#123;/each&#125;}
+  &lt;/ul&gt;
+&lt;/template&gt;
+  </code></pre>
+  <pre><code data-language="js">
+Template.theThings.all = function () {
+  return Things.find()
+}
+  </code></pre>
+  <p>Template re-renders when the collection changes</p>
 </section>
 
-<section>
-  <h1 class="caption">1</h1>
-</section>
-
-<section style="background:url(sky.jpg);">
-  <h1 class="caption">GRATUITOUS IMAGE<br>WITH CAPTION</h1>
+<section id="routing">
+  <div>
+    <h1>Routing</h1>
+    <ul>
+      <li>Asciify uses budget routing<sup>TM</sup></li>
+      <li>For serious routing you'll want to use<br/><a href="https://github.com/EventedMind/iron-router">IRON ROUTER</a></li>
+    </ul>
+  </div>
 </section>
 
 <section>
