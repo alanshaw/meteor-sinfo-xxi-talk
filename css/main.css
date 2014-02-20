@@ -118,6 +118,19 @@ li {
   box-shadow: 0 0 1em #000;
 }
 
+#foam {
+  background-color: #333;
+  background-size: auto auto;
+  background-image: url(../img/foam.png);
+  background-repeat: no-repeat;
+  background-position: 85% center;
+
+}
+#foam > div {
+  padding: 40px 80px;
+  background: rgba(0,0,0,0.5);
+}
+
 #how-does-it-know {
   background-image: url(../img/inigo.jpg);
 }
@@ -130,6 +143,15 @@ li {
   background-image: url(../img/ironman-router.jpg);
 }
 #routing > div {
+  padding: 40px 80px;
+  background: rgba(0,0,0,0.7);
+}
+
+#atmosphere {
+  background-image: url(../img/Top_of_Atmosphere.jpg);
+  background-position: center top;
+}
+#atmosphere > div {
   padding: 40px 80px;
   background: rgba(0,0,0,0.7);
 }

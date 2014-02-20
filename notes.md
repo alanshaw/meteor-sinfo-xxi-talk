@@ -66,27 +66,44 @@
 - d3!
 - UA string harvester
 
+[Foam]
+- d3
+- SVG
+- Data URI
+- Web RTC getUserMedia
+- DDoS the DB with Data URIs
+
 [how does it know?]
 - All these demos are using the Meteor Deps package
-- Run a computation once, and re-run the computation when its dependencies change
+- Deps sets up a _reactive context_ that runs a computation once, and re-runs it when its dependencies change
 - Pub/Sub
 - Live data sets
 - Meteor poll & diff / oplog tailing
 - Reduces amount of data sent down the wire by sending data diffs only
 - The Protocol Meteor are using is called DDP - an open standard they created
 
+[spotify]
+- npm integration again
+- node-spotify-applescript
+- HTML5 <progress> element FTW
+
 [asciify]
 - Gravatar
 - Experimentation with npm modules
 - Reactive templating
+- Chat rooms!
 
 [Template code]
 - Define a template
 - Uses handlebars syntax
 - Template re-renders when the data changes
+- Behind the scenes they create a reactive context using Meteor Deps
+- Reactive DOM is not a new
+- Facebook React, Ractive, AngularJS, EmberJS
 - Latency compensation
 
 [Routing]
+- Meteor applications are single page apps unless you do something about it
 - Asciify uses a budget routing mechanism for chat room implementation
 - Still 7 lines is fun
 - For serious routing you'll want to use IRON ROUTER
@@ -96,16 +113,8 @@
 - Meteorite is the tool that you use to install packages in atmosphere
 - You'll come to realise many things made for meteor are tragically named after vaguely relevant "spacey" things
 
-[Spotify]
-- npm integration again
-- node-spotify-applescript
-- HTML5 <progress> element FTW
+[Meteor packages: accounts]
 
-[Foam]
-- d3
-- SVG
-- Data URI
-- Web RTC getUserMedia
 
 
 Access control??
