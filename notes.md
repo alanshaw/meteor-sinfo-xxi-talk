@@ -13,7 +13,7 @@
 - A full stack framework for building your web app
 - A stack of NodeJS, MongoDB, Handlebars and websockets
 - Focused on allowing you to build data driven realtime apps
-- Traditional vs Meteor apps
+- Traditional vs Meteor apps (request response graph, meteor only data after initial html/js)
 
 [first meetup]
 - Oli was worried about nobody coming
@@ -113,8 +113,18 @@
 - Meteorite is the tool that you use to install packages in atmosphere
 - You'll come to realise many things made for meteor are tragically named after vaguely relevant "spacey" things
 
-[Meteor packages: accounts]
+[Meteor packages]
+- There are a bunch of great official meteor packages
+- accounts-ui most amaze
 
+[erhmahgerd]
+
+[Test your ideas]
+- Most important thing is to test your ideas
+- Hopefully you can see from the demos that meteor allows you to do that really easily
+- Meteor allows you to easily get setup using modern methods and technologies for creating web apps with minimal boilerplate - features such as websockets, reactive DOM, Database synchronisation
+- Free hosting on meteor.com
+- If a picture is worth a thousand words, a demo is worth a thousand pictures
 
 
 Access control??

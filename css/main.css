@@ -155,3 +155,35 @@ li {
   padding: 40px 80px;
   background: rgba(0,0,0,0.7);
 }
+
+#meteor-packages {
+  background-image: url(../img/Bengal-kitty-in-a-box.jpg);
+}
+#meteor-packages > div {
+  padding: 40px 80px;
+  background: rgba(0,0,0,0.7);
+  overflow: hidden;
+}
+#meteor-packages h1 {
+  color: #000;
+  background: rgba(255, 255, 255, 0.96);
+  padding: 0 160px;
+  margin: 0 -80px 1em;
+}
+#meteor-packages ul {
+  float: left;
+  font-size: 28px;
+  margin-right: 5em;
+}
+
+#test-the-ideas {
+  background-image: url(../img/awesome_but_crazy_inventions_640_01.jpg);
+}
+
+#thanks {
+  background-image: url(../img/goodnight.png);
+}
+#thanks > div {
+  padding: 40px 80px;
+  background: rgba(0,0,0,0.4);
+}
